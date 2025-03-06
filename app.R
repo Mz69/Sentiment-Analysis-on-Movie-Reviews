@@ -8,7 +8,7 @@ library(dplyr)
 library(RColorBrewer)
 
 # Load dataset
-imdb_data <- read.csv("/Users/mdmarufuzzaman/Desktop/Sentiment Analysis on Movie Reviews/Sentiment Analysis on Movie Reviews/imdb dataset.csv", stringsAsFactors = FALSE)
+imdb_data <- read.csv("imdb dataset.csv", stringsAsFactors = FALSE)
 
 # Preprocess text function
 preprocess_text <- function(text) {
