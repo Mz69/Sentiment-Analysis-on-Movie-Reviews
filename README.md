@@ -22,7 +22,7 @@ Word Cloud Visualization: A word cloud is generated based on the most common wor
 Setup and Installation
 
 Clone the repository:
-git clone https://github.com/yourusername/sentiment-analysis-movie-reviews.git
+git clone https://github.com/Mz69/sentiment-analysis-movie-reviews.git
 Install Required Packages: Make sure you have R installed on your system. Then, you can install the required packages by running the following commands in R:
 install.packages(c("shiny", "tm", "wordcloud", "e1071", "ggplot2", "dplyr"))
 Load the Dataset: Download the IMDb movie reviews dataset (CSV format) and place it in the project directory. The dataset can be obtained from sources like Kaggle.
